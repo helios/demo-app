@@ -23,6 +23,7 @@
     },
     "scripts": {
         "clean": "tsc --build --clean",
-        "build": "tsc --build"
+        "build": "tsc --build",
+        "runUsers": "ts-node src/index.ts"
     }
 }
